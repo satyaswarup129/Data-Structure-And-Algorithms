@@ -1,4 +1,6 @@
-int romanToInt(char* s) {
+class Solution {
+public:
+   int romanToInt(char* s) {
     int res=0;
     int pre=0;
     char roman[7]={'I', 'V', 'X', 'L', 'C', 'D', 'M'};
@@ -23,3 +25,4 @@ int romanToInt(char* s) {
     return res;
     
 }
+};
